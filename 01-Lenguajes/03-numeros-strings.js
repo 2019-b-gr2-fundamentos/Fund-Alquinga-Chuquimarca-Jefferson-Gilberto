@@ -56,9 +56,10 @@ console.log(nombreLongitud.substring(0, 6)); //
 
 
 
-var COLOR_ROJO = 1; //camelCase
+var COLOR_ROJO = 1; //camelCase .Todas las variables igual que la anterior con la excepción de que la primera letra es minúscula.
 //NUMEROUNO     -> TODO MAYUSCULA (SEPARACION NO)
 //NUMERO_UNO    -> mayusculas guion bajo
-//NumeroUno     ->
-//numerouno
-//numero_uno 
+//NumeroUno     ->la primera letra de cada palabra en matyuscula 
+//numerouno     -> Todo con minuscula 
+//numero_uno    ->depues de cada letra una separación.
+//numerOunO ->
