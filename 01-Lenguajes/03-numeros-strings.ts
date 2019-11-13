@@ -23,7 +23,7 @@ const mensaje = "\"Hola mundo\"";
 const saludo = '\'Adio\s mundo\'';
 console.log (mensaje + " 1\t 2\r 3\n " + saludo); // \n -> salto de linea  \t -> tab
 // templete strings
-const edad = 30;
+const edad = 21;
 const saludoEdad = `Mi edad es: \n${edad}`;     // ` -> Permite inyectar variables dentro el texto
 const SaludoCompleto = `${mensaje}\n${saludo}`; // 
 console.log(saludoEdad);
@@ -32,7 +32,8 @@ console.log(SaludoCompleto);
 //contamos elementos
 const nombreLongitud = "Vicente Adrian";
 console.log(nombreLongitud.length);
-console.log(nombreLongitud.trim());
+// Eliminar espacios al principio y al final 
+console.log(nombreLongitud.trim());or 
 //Cambiar mayusculas
 console.log(nombreLongitud.toUpperCase());
 console.log(nombreLongitud.toLowerCase());
