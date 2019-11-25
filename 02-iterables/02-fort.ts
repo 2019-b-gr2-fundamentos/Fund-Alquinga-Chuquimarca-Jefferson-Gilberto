@@ -46,6 +46,16 @@ const
 
 Math.floor(Math.random() * 2)// [0 , 2 [
 Math.floor(Math.random()*2)// [0 , 11 [
+for(let existe al menos un elemeto=1 ;)
+
+// 1) Crear un aregllo de 10 elementos 
+const
+
+math.floor(math.random() *2)//[0 , 2]
+Mat
+
+
+
 
 // 
 // crear un elemnto
@@ -64,6 +74,9 @@ Console.log(arregloNumeros[indiceElementoCinco]);
 Console.log(arregloNumeros[4]);
 // 5 
 
+
+
+dEFINIR JUGADORES
 
 
 
