@@ -1,3 +1,5 @@
+'''#Examen bimestral Nombre:JEFFERSON  GILBERTO ALQUINGA CHUQUIMARCA. FUNDAMENTOS DE PROGRAMACIÒN'''
+
 print('Marcas de Zapatos')
 Zapatos=['Nike','adidas','Converse']
 cantidades=[1,2,3,4,5]
