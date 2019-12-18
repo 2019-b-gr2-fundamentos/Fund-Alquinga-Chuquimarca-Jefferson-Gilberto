@@ -73,9 +73,3 @@ while 1:
         print(Resultado)
 
     print('FIN VUELVA PRONTO')
-
-
-
-
-          
-

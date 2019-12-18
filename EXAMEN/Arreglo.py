@@ -15,8 +15,9 @@ for i in range(n):
     Zapato=input("Zapato: ")
     Zapatos.append(Zapato)
 print(Zapatos)
-'''
+
 #Reemplazar elementos 
+n=int(input("¿Cuàl elemento?"))
 Zapatos[0]='puma'
 print(Zapatos)
 Zapatos[-1]='New Balance'
@@ -53,5 +54,6 @@ print(Zapatos2)
 r=['A','B','C','D','E']
 for i,letra in enumerate(r):
     r[i]=letra.lower()
-    print(r)'''
+    print(r)
+
 
