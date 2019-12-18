@@ -66,3 +66,16 @@ function calculadora(){
     2.2.3) Ejecutar la operacion
  
 */
+
+//hacer una la igualdad de 2 dos matrices de orden n x m 
+//  condiciones    que n=m  las matrcies no aceptan a n!=m
+
+function compararMatriz(
+      matrizUno: number[][],
+      matrizDos: number[][]
+): boolean{
+    return true;
+
+}
+compararMatriz([[2,3],[3,4]],[[2,3],[3,4]])
+    console.log("row 1 , row 2  ")
