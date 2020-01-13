@@ -1,0 +1,9 @@
+{ 
+    "nombre":"Jefferson",     
+"apellido":"Alquinga",
+ "Edad": 21,
+ "casado":false,
+ "hijos":null,
+"mascotas":[]
+
+}
