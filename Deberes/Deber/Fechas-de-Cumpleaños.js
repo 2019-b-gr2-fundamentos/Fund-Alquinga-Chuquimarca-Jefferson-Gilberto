@@ -47,7 +47,7 @@ function main() {
                         case 0: return [4 /*yield*/, prompts({
                                 type: 'text',
                                 name: 'eleccion',
-                                message: "¡¡No olvides otro cumpleaños jamas!!\n Seleccione una opcion\n 1. Crear\n 2. Actualizar\n 3. Borrar\n 4. Salir\n"
+                                message: "¡¡HOLA BIENVENIDO AL REGISTRO DE CLIENTES!!\n Seleccione una opcion\n 1. Crear\n 2. Actualizar\n 3. Borrar\n 4. Salir\n"
                             })];
                         case 1:
                             Decide = _a.sent();
@@ -68,7 +68,7 @@ function main() {
                                         break;
                                     }
                                 case '4': {
-                                    console.log("Adiosito");
+                                    console.log("HASTA PRONTO");
                                     break;
                                 }
                                 default:
@@ -89,7 +89,7 @@ function main() {
                 return __generator(this, function (_a) {
                     switch (_a.label) {
                         case 0: return [4 /*yield*/, prompts(UnCumpleañero)];
-                        case 1:
+                        case 1:   
                             DatosCumpleañeros = _a.sent();
                             Respuesta = {
                                 id: contador,
@@ -115,7 +115,7 @@ function main() {
                 return __generator(this, function (_a) {
                     switch (_a.label) {
                         case 0:
-                            console.log('Ingresa el identificador  del Cumpleañero que desees actualizar');
+                            console.log('Ingresa el identificador  del CLIENTE que desees actualizar');
                             console.log(GuardarCumpleaños);
                             return [4 /*yield*/, prompts({
                                     type: 'number',
@@ -138,7 +138,7 @@ function main() {
                                 Año_De_Nacimiento: Actualizado.Año_De_Nacimiento,
                                 Mes_De_Nacimiento: Actualizado.Mes_De_Nacimiento,
                                 Dia_De_Nacimiento: Actualizado.Dia_De_Nacimiento,
-                                Me_Gusta: Actualizado.Me_Gusta
+                                Dirección: Actualizado.Dirección,
                             };
                             GuardarCumpleaños[indiceEncontrado] = RespuestaActualizada;
                             Que_Desea_Hacer();
@@ -172,7 +172,7 @@ function main() {
                                 Año_De_Nacimiento: null,
                                 Mes_De_Nacimiento: null,
                                 Dia_De_Nacimiento: null,
-                                Me_Gusta: null
+                                Dirección: null
                             };
                             if (indiceEncontrado != -1) {
                                 GuardarCumpleaños.splice(indiceEncontrado, 1, Vacio);
@@ -216,7 +216,7 @@ function main() {
                 {
                     type: 'text',
                     name: 'Me_Gusta',
-                    message: 'Dime lo que te Gusta'
+                    message: 'Dirección'
                 }
             ];
             Que_Desea_Hacer();
